@@ -18,5 +18,5 @@ Please do **not** use these images in production for now.
 
 	docker run --name some-magnolia -p 8080:8080 -d trimm/magnolia
 
-The Magnolia instances will be available at [docker.host:8080/magnoliaAuthor](http://docker.host:8080/magnoliaAuthor) and [docker.host:8080/magnoliaPublic](http://docker.host:8080/magnoliaPublic) .
-The default login for the admin interface is *superuser* / *superuser*
+The Magnolia instances will be available at [docker.host:8080/magnoliaAuthor](http://docker.host:8080/magnoliaAuthor) and [docker.host:8080/magnoliaPublic](http://docker.host:8080/magnoliaPublic).
+The default login for the admin interface is *superuser* / *superuser*.

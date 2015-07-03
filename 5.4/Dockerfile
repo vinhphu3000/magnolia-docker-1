@@ -3,8 +3,6 @@ FROM tomcat:7-jre7
 ENV MAGNOLIA_VERSION 5.4-beta
 ENV MAGNOLIA_WAR_URL https://nexus.magnolia-cms.com/content/repositories/magnolia.public.releases/info/magnolia/bundle/magnolia-bundled-webapp/$MAGNOLIA_VERSION/magnolia-bundled-webapp-$MAGNOLIA_VERSION.war
 
-#VOLUME ["/usr/local/tomcat/webapps/"]
-
 RUN set -x \
 	&& curl -fSL "$MAGNOLIA_WAR_URL" -o magnolia.war \
 	&& curl -fSL "$MAGNOLIA_WAR_URL.sha1" -o magnolia.war.sha1 \

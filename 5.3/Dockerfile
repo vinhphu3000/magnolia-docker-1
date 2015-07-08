@@ -1,4 +1,4 @@
-FROM tomcat:7-jre7
+FROM tomcat:7-jre8
 
 ENV MAGNOLIA_VERSION 5.3.9
 ENV MAGNOLIA_WAR_URL https://nexus.magnolia-cms.com/content/repositories/magnolia.public.releases/info/magnolia/bundle/magnolia-bundled-webapp/$MAGNOLIA_VERSION/magnolia-bundled-webapp-$MAGNOLIA_VERSION.war
